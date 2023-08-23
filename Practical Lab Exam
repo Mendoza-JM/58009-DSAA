@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPnGRZrOHTPMoWw+qyyORjB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Mendoza-JM/58009-DSAA/blob/main/Practical%20Lab%20Exam\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CnM870wbbPYc",
+        "outputId": "893364ef-8653-47fa-fc82-903b4dcf14c9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "211\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = [26,49,98,87,62,75]\n",
+        "x=0\n",
+        "total=0\n",
+        "while x<=5:\n",
+        "    if (score[x])%2==1:\n",
+        "        total = total + score[x]\n",
+        "    x+=1\n",
+        "print(total)"
+      ]
+    }
+  ]
+}
